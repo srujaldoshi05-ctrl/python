@@ -7,7 +7,7 @@ import json
 
 
 def home(request):
-    return render(request, 'index.html')
+    return render(request, 'view/index.html')
 
 
 @csrf_exempt
