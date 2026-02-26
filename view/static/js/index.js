@@ -8,7 +8,7 @@
         async function loadQuestions() {
             try {
                 // Using the Django static template tag to get the correct URL
-                const response = await fetch("{% static 'json/taxt.json' %}");
+                const response = await fetch(window.K_URLS.questions);
                 if (!response.ok) throw new Error("Could not load questions data");
                 questions = await response.json();
                 isQuestionsLoaded = true;
@@ -46,7 +46,7 @@
             }
 
             try {
-                const response = await fetch("{% url 'auth_user' %}", {
+                const response = await fetch(window.K_URLS.authUser, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ username })
@@ -92,7 +92,7 @@
             currentUserName = input;
 
             try {
-                const response = await fetch(`{% url 'get_scores' %}?user_name=${encodeURIComponent(currentUserName)}`);
+                const response = await fetch(`${window.K_URLS.getScores}?user_name=${encodeURIComponent(currentUserName)}`);
                 const data = await response.json();
 
                 const historyList = document.getElementById("historyList");
@@ -133,7 +133,7 @@
 
         async function showLeaderboard() {
             try {
-                const response = await fetch("{% url 'get_leaderboard' %}");
+                const response = await fetch(window.K_URLS.getLeaderboard);
                 const data = await response.json();
 
                 const list = document.getElementById("leaderboardList");
@@ -212,7 +212,7 @@
             };
 
             try {
-                const response = await fetch("{% url 'save_score' %}", {
+                const response = await fetch(window.K_URLS.saveScore, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(payload)
@@ -249,7 +249,7 @@
             };
 
             try {
-                const response = await fetch("{% url 'save_progress' %}", {
+                const response = await fetch(window.K_URLS.saveProgress, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(payload)
@@ -305,7 +305,7 @@
 
             // Check for progress
             try {
-                const response = await fetch(`{% url 'get_progress' %}?user_name=${encodeURIComponent(currentUserName)}&set_number=${setNumber}`);
+                const response = await fetch(`${window.K_URLS.getProgress}?user_name=${encodeURIComponent(currentUserName)}&set_number=${setNumber}`);
                 const data = await response.json();
 
                 if (data.status === 'success') {

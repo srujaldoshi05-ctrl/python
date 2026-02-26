@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-s-f9gfghui5sq&1xxf)dl377!0!rm_1^ou#j!j+zl8b^y6(l&^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*','localhost','192.168.31.127','https://lynsey-jolliest-immaturely.ngrok-free.dev']
+ALLOWED_HOSTS = ['*','localhost','192.168.31.229','lynsey-jolliest-immaturely.ngrok-free.dev']
+CSRF_TRUSTED_ORIGINS = ['https://lynsey-jolliest-immaturely.ngrok-free.dev']
 
 
 # Application definition
@@ -73,7 +74,11 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 DATABASES = {
-    'default': {  # MySQL (primary)
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    },
+    'mysql': {  # MySQL (previously primary)
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'hello',
         'USER': 'root',
@@ -81,11 +86,6 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'PORT': '3307',
     },
-
-    'sqlite': {  # SQLite (optional / dev)
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
 }
 
 
@@ -115,7 +115,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
 
