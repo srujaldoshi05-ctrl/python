@@ -27,4 +27,4 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        python manage.py runserver https://python-dev-quiz.onrender.com
+        python manage.py runserver 127.0.0.1:5000
