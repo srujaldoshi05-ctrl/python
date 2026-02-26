@@ -3,6 +3,7 @@ from .views import *
 
 urlpatterns = [
     path('', home, name='home'),
+    path('srujaldoshi05-ctrl.github.io/python/', home, name='index_html'),
     path('index.html', home, name='index_html'),
     path('save-score/', save_score, name='save_score'),
     path('get-scores/', get_scores, name='get_scores'),
