@@ -1,0 +1,2403 @@
+[
+            {
+                "id": 1,
+                "question": "Who created Python?",
+                "options": ["James Gosling", "Guido van Rossum", "Brendan Eich", "Dennis Ritchie"],
+                "answer": "Guido van Rossum"
+            },
+            {
+                "id": 2,
+                "question": "In which year was Python released?",
+                "options": ["1989", "1991", "1995", "2000"],
+                "answer": "1991"
+            },
+            {
+                "id": 3,
+                "question": "Where was Python created?",
+                "options": ["MIT", "Stanford", "CWI Netherlands", "Google"],
+                "answer": "CWI Netherlands"
+            },
+            { 
+                "id": 4,
+                "question": "What type of programming language is Python?",
+                "options": ["Low level", "General Purpose, High level", "Assembly", "Machine"],
+                "answer": "General Purpose, High level"
+            },
+            {
+                "id": 5,
+                "question": "Is Python a dynamic language?",
+                "options": ["No", "Yes", "Sometimes", "Only in specific versions"],
+                "answer": "Yes"
+            },
+            {
+                "id": 6,
+                "question": "Which of the following is NOT a use of Python?",
+                "options": ["Web development", "Machine Learning", "Hardware manufacturing", "Data analysis"],
+                "answer": "Hardware manufacturing"
+            },
+            {
+                "id": 7,
+                "question": "Can Python be used for server-side web development?",
+                "options": ["No", "Yes", "Only with Java", "Only on Windows"],
+                "answer": "Yes"
+            },
+            {
+                "id": 8,
+                "question": "Can Python connect to database systems?",
+                "options": ["No", "Yes, with proper libraries", "Only MySQL", "Only MongoDB"],
+                "answer": "Yes, with proper libraries"
+            },
+            {
+                "id": 9,
+                "question": "Can Python handle big data?",
+                "options": ["No", "Yes", "Only small datasets", "Only with Java"],
+                "answer": "Yes"
+            },
+            {
+                "id": 10,
+                "question": "Which feature makes Python simple to learn?",
+                "options": ["Complex syntax", "Simple & Easy syntax", "Strict typing", "Verbose code"],
+                "answer": "Simple & Easy syntax"
+            },
+            {
+                "id": 11,
+                "question": "Is Python platform independent?",
+                "options": ["No", "Yes", "Only on Windows", "Only on Linux"],
+                "answer": "Yes"
+            },
+            {
+                "id": 12,
+                "question": "Is Python free and open source?",
+                "options": ["No", "Yes", "Only for students", "Only for non-commercial use"],
+                "answer": "Yes"
+            },
+            {
+                "id": 13,
+                "question": "Is Python interpreted or compiled?",
+                "options": ["Compiled", "Interpreted", "Both equally", "Neither"],
+                "answer": "Interpreted"
+            },
+            {
+                "id": 14,
+                "question": "Does Python have rich library support?",
+                "options": ["No", "Yes", "Only basic libraries", "Only paid libraries"],
+                "answer": "Yes"
+            },
+            {
+                "id": 15,
+                "question": "Which company does NOT use Python?",
+                "options": ["Google", "Facebook", "IBM (not mentioned)", "Instagram"],
+                "answer": "IBM (not mentioned)"
+            },
+            {
+                "id": 16,
+                "question": "Which streaming service uses Python?",
+                "options": ["Hulu", "Netflix", "Amazon Prime", "Disney+"],
+                "answer": "Netflix"
+            },
+            {
+                "id": 17,
+                "question": "Which cloud storage uses Python?",
+                "options": ["iCloud", "Dropbox", "OneDrive", "Google Drive"],
+                "answer": "Dropbox"
+            },
+            {
+                "id": 18,
+                "question": "Does NASA use Python?",
+                "options": ["No", "Yes", "Only for websites", "Only for education"],
+                "answer": "Yes"
+            },
+            {
+                "id": 19,
+                "question": "What is the correct syntax to print in Python?",
+                "options": ["echo 'hello'", "print('hello')", "console.log('hello')", "printf('hello')"],
+                "answer": "print('hello')"
+            },
+            {
+                "id": 20,
+                "question": "Which function is used for user input in Python?",
+                "options": ["scanf()", "input()", "read()", "get()"],
+                "answer": "input()"
+            },
+            {
+                "id": 21,
+                "question": "What is the purpose of comments in Python?",
+                "options": ["To execute code", "To explain code and make it readable", "To slow down execution", "To increase memory"],
+                "answer": "To explain code and make it readable"
+            },
+            {
+                "id": 22,
+                "question": "Which symbol is used for single-line comments?",
+                "options": ["//", "#", "/*", ""],
+                "answer": "#"
+            },
+            {
+                "id": 23,
+                "question": "How are multi-line comments written in Python?",
+                "options": ["/**/", "''' ''' or \"\"\" \"\"\"", "// //", "{{}}"],
+                "answer": "''' ''' or \"\"\" \"\"\""
+            },
+            {
+                "id": 24,
+                "question": "What are variables in Python?",
+                "options": ["Fixed values", "Containers for storing data values", "Functions only", "Keywords only"],
+                "answer": "Containers for storing data values"
+            },
+            {
+                "id": 25,
+                "question": "Do Python variables need to be declared with a type?",
+                "options": ["Yes, always", "No", "Only for strings", "Only for numbers"],
+                "answer": "No"
+            },
+            {
+                "id": 26,
+                "question": "Can Python variables change type after being set?",
+                "options": ["No", "Yes", "Only in Python 2", "Only with special syntax"],
+                "answer": "Yes"
+            },
+            {
+                "id": 27,
+                "question": "What is the output of print(5+5)?",
+                "options": ["55", "10", "5+5", "Error"],
+                "answer": "10"
+            },
+            {
+                "id": 28,
+                "question": "What is the output of print('5'+'5')?",
+                "options": ["10", "55", "Error", "55"],
+                "answer": "55"
+            },
+            {
+                "id": 29,
+                "question": "Which of the following is a mutable data type?",
+                "options": ["String", "List", "Integer", "Tuple"],
+                "answer": "List"
+            },
+            {
+                "id": 30,
+                "question": "Which of the following is an immutable data type?",
+                "options": ["List", "Dictionary", "String", "Set"],
+                "answer": "String"
+            },
+            {
+                "id": 31,
+                "question": "What does the + operator do?",
+                "options": ["Subtraction", "Addition", "Multiplication", "Division"],
+                "answer": "Addition"
+            },
+            {
+                "id": 32,
+                "question": "What does the - operator do?",
+                "options": ["Addition", "Subtraction", "Multiplication", "Modulus"],
+                "answer": "Subtraction"
+            },
+            {
+                "id": 33,
+                "question": "What does the * operator do?",
+                "options": ["Addition", "Multiplication", "Division", "Exponentiation"],
+                "answer": "Multiplication"
+            },
+            {
+                "id": 34,
+                "question": "What does the / operator do?",
+                "options": ["Integer division", "Division", "Modulus", "Floor division"],
+                "answer": "Division"
+            },
+            {
+                "id": 35,
+                "question": "What does the % operator do?",
+                "options": ["Percentage", "Modulus", "Division", "Exponentiation"],
+                "answer": "Modulus"
+            },
+            {
+                "id": 36,
+                "question": "What does the ** operator do?",
+                "options": ["Multiplication", "Exponentiation", "Floor division", "Modulus"],
+                "answer": "Exponentiation"
+            },
+            {
+                "id": 37,
+                "question": "What does the // operator do?",
+                "options": ["Division", "Floor division", "Modulus", "Exponentiation"],
+                "answer": "Floor division"
+            },
+            {
+                "id": 38,
+                "question": "What is the result of 10 // 3?",
+                "options": ["3.33", "3", "4", "3.0"],
+                "answer": "3"
+            },
+            {
+                "id": 39,
+                "question": "What is the result of 10 % 3?",
+                "options": ["3", "1", "0", "10"],
+                "answer": "1"
+            },
+            {
+                "id": 40,
+                "question": "What is the result of 2 ** 3?",
+                "options": ["6", "8", "9", "5"],
+                "answer": "8"
+            },
+            {
+                "id": 41,
+                "question": "What does x += y mean?",
+                "options": ["x = x + y", "x = x - y", "x = x * y", "x = y"],
+                "answer": "x = x + y"
+            },
+            {
+                "id": 42,
+                "question": "What does x -= y mean?",
+                "options": ["x = x + y", "x = x - y", "x = x / y", "x = 0"],
+                "answer": "x = x - y"
+            },
+            {
+                "id": 43,
+                "question": "What does x *= y mean?",
+                "options": ["x = x + y", "x = x * y", "x = x / y", "x = y"],
+                "answer": "x = x * y"
+            },
+            {
+                "id": 44,
+                "question": "What does x /= y mean?",
+                "options": ["x = x + y", "x = x / y", "x = x * y", "x = 0"],
+                "answer": "x = x / y"
+            },
+            {
+                "id": 45,
+                "question": "What does x %= y mean?",
+                "options": ["x = x % y", "x = x + y", "x = x - y", "x = x * y"],
+                "answer": "x = x % y"
+            },
+            {
+                "id": 46,
+                "question": "What does == operator check?",
+                "options": ["Assignment", "Equality", "Greater than", "Less than"],
+                "answer": "Equality"
+            },
+            {
+                "id": 47,
+                "question": "What does != operator check?",
+                "options": ["Equality", "Not equal", "Greater than", "Assignment"],
+                "answer": "Not equal"
+            },
+            {
+                "id": 48,
+                "question": "What does > operator check?",
+                "options": ["Less than", "Greater than", "Equal to", "Not equal"],
+                "answer": "Greater than"
+            },
+            {
+                "id": 49,
+                "question": "What does < operator check?",
+                "options": ["Greater than", "Less than", "Equal to", "Not equal"],
+                "answer": "Less than"
+            },
+            {
+                "id": 50,
+                "question": "What does >= operator check?",
+                "options": ["Less than", "Greater than or equal to", "Equal only", "Not equal"],
+                "answer": "Greater than or equal to"
+            },
+            {
+                "id": 51,
+                "question": "What does <= operator check?",
+                "options": ["Greater than", "Less than or equal to", "Equal only", "Not equal"],
+                "answer": "Less than or equal to"
+            },
+            {
+                "id": 52,
+                "question": "What does 'and' operator return?",
+                "options": ["True if either is true", "True if both statements are true", "Always True", "Always False"],
+                "answer": "True if both statements are true"
+            },
+            {
+                "id": 53,
+                "question": "What does 'or' operator return?",
+                "options": ["True if both are true", "True if one of the statements is true", "Always False", "Always True"],
+                "answer": "True if one of the statements is true"
+            },
+            {
+                "id": 54,
+                "question": "What does 'not' operator do?",
+                "options": ["Returns the same value", "Reverses the result", "Always returns True", "Always returns False"],
+                "answer": "Reverses the result"
+            },
+            {
+                "id": 55,
+                "question": "What is the result of True and False?",
+                "options": ["True", "False", "None", "Error"],
+                "answer": "False"
+            },
+            {
+                "id": 56,
+                "question": "What is the result of True or False?",
+                "options": ["False", "True", "None", "Error"],
+                "answer": "True"
+            },
+            {
+                "id": 57,
+                "question": "What does 'is' operator check?",
+                "options": ["Value equality", "If both variables are the same object", "Type equality", "String equality"],
+                "answer": "If both variables are the same object"
+            },
+            {
+                "id": 58,
+                "question": "What does 'is not' operator check?",
+                "options": ["If values are equal", "If both variables are not the same object", "If types match", "If strings match"],
+                "answer": "If both variables are not the same object"
+            },
+            {
+                "id": 59,
+                "question": "What does 'in' operator check?",
+                "options": ["If a value exists in a sequence", "If types match", "If values are equal", "If objects are same"],
+                "answer": "If a value exists in a sequence"
+            },
+            {
+                "id": 60,
+                "question": "What does 'not in' operator check?",
+                "options": ["If a value exists", "If a value is not present in a sequence", "If types don't match", "If values differ"],
+                "answer": "If a value is not present in a sequence"
+            },
+            {
+                "id": 61,
+                "question": "What is the result of 5 in [1, 2, 3, 4, 5]?",
+                "options": ["False", "True", "None", "Error"],
+                "answer": "True"
+            },
+            {
+                "id": 62,
+                "question": "What is the result of 10 not in [1, 2, 3]?",
+                "options": ["False", "True", "None", "Error"],
+                "answer": "True"
+            },
+            {
+                "id": 63,
+                "question": "Which operators are used for bitwise operations?",
+                "options": ["+, -, *, /", "&, |, ^, ~, <<, >>", "and, or, not", "==, !=, >, <"],
+                "answer": "&, |, ^, ~, <<, >>"
+            },
+            {
+                "id": 64,
+                "question": "What is the purpose of assignment operators?",
+                "options": ["Compare values", "Assign and modify values", "Print output", "Define functions"],
+                "answer": "Assign and modify values"
+            },
+            {
+                "id": 65,
+                "question": "What is the purpose of comparison operators?",
+                "options": ["Assign values", "Compare values", "Perform arithmetic", "Define classes"],
+                "answer": "Compare values"
+            },
+            {
+                "id": 66,
+                "question": "What is the purpose of logical operators?",
+                "options": ["Perform arithmetic", "Combine conditional statements", "Assign values", "Create loops"],
+                "answer": "Combine conditional statements"
+            },
+            {
+                "id": 67,
+                "question": "What is the purpose of identity operators?",
+                "options": ["Compare values", "Check if objects are the same", "Perform arithmetic", "Create functions"],
+                "answer": "Check if objects are the same"
+            },
+            {
+                "id": 68,
+                "question": "What is the purpose of membership operators?",
+                "options": ["Check if value exists in a sequence", "Compare objects", "Assign values", "Create classes"],
+                "answer": "Check if value exists in a sequence"
+            },
+            {
+                "id": 69,
+                "question": "What is the result of 10 == 10?",
+                "options": ["False", "True", "None", "10"],
+                "answer": "True"
+            },
+            {
+                "id": 70,
+                "question": "What is the result of 10 != 5?",
+                "options": ["False", "True", "None", "Error"],
+                "answer": "True"
+            },
+            {
+                "id": 71,
+                "question": "What class represents integers in Python?",
+                "options": ["float", "int", "str", "bool"],
+                "answer": "int"
+            },
+            {
+                "id": 72,
+                "question": "Can Python integers be negative?",
+                "options": ["No", "Yes", "Only in Python 3", "Only with special syntax"],
+                "answer": "Yes"
+            },
+            {
+                "id": 73,
+                "question": "Is there a limit to integer size in Python?",
+                "options": ["Yes, 32-bit limit", "No, there is no limit (constrained by memory)", "Yes, 64-bit limit", "Yes, 128-bit limit"],
+                "answer": "No, there is no limit (constrained by memory)"
+            },
+            {
+                "id": 74,
+                "question": "What represents a sequence of characters in Python?",
+                "options": ["Integer", "String", "Float", "Boolean"],
+                "answer": "String"
+            },
+            {
+                "id": 75,
+                "question": "How many ways can strings be defined in Python?",
+                "options": ["1", "2", "3", "4"],
+                "answer": "3"
+            },
+            {
+                "id": 76,
+                "question": "Which quotes can be used for strings?",
+                "options": ["Only single quotes", "Only double quotes", "Single, double, or triple quotes", "Only triple quotes"],
+                "answer": "Single, double, or triple quotes"
+            },
+            {
+                "id": 77,
+                "question": "What does string slicing do?",
+                "options": ["Deletes characters", "Gets characters from a range", "Reverses string", "Uppercases string"],
+                "answer": "Gets characters from a range"
+            },
+            {
+                "id": 78,
+                "question": "What does upper() method do?",
+                "options": ["Converts to lowercase", "Converts to uppercase", "Capitalizes first letter", "Reverses string"],
+                "answer": "Converts to uppercase"
+            },
+            {
+                "id": 79,
+                "question": "What does lower() method do?",
+                "options": ["Converts to uppercase", "Converts to lowercase", "Capitalizes first letter", "Finds substring"],
+                "answer": "Converts to lowercase"
+            },
+            {
+                "id": 80,
+                "question": "What does capitalize() method do?",
+                "options": ["Uppercases all letters", "Uppercases first letter", "Lowercases all letters", "Finds substring"],
+                "answer": "Uppercases first letter"
+            },
+            {
+                "id": 81,
+                "question": "What does casefold() method do?",
+                "options": ["Uppercases string", "Makes string lowercase (aggressive)", "Capitalizes string", "Finds substring"],
+                "answer": "Makes string lowercase (aggressive)"
+            },
+            {
+                "id": 82,
+                "question": "What does find() method do?",
+                "options": ["Replaces substring", "Finds position of substring", "Deletes substring", "Counts occurrences"],
+                "answer": "Finds position of substring"
+            },
+            {
+                "id": 83,
+                "question": "What type contains decimal numbers?",
+                "options": ["Integer", "Float", "String", "Boolean"],
+                "answer": "Float"
+            },
+            {
+                "id": 84,
+                "question": "What is an example of a float?",
+                "options": ["5", "5.0", "'5'", "True"],
+                "answer": "5.0"
+            },
+            {
+                "id": 85,
+                "question": "How many values can a Boolean have?",
+                "options": ["1", "2", "3", "4"],
+                "answer": "2"
+            },
+            {
+                "id": 86,
+                "question": "What are the Boolean values in Python?",
+                "options": ["Yes/No", "True/False", "1/0", "On/Off"],
+                "answer": "True/False"
+            },
+            {
+                "id": 87,
+                "question": "What does None represent?",
+                "options": ["Zero value", "Absence of a value", "Empty string", "False"],
+                "answer": "Absence of a value"
+            },
+            {
+                "id": 88,
+                "question": "Is a Set ordered or unordered?",
+                "options": ["Ordered", "Unordered", "Partially ordered", "Depends on version"],
+                "answer": "Unordered"
+            },
+            {
+                "id": 89,
+                "question": "Can Set items be changed after creation?",
+                "options": ["Yes, all items", "No, items are unchangeable", "Only some items", "Only with special methods"],
+                "answer": "No, items are unchangeable"
+            },
+            {
+                "id": 90,
+                "question": "Are Set items indexed?",
+                "options": ["Yes", "No", "Only in Python 3", "Only numeric items"],
+                "answer": "No"
+            },
+            {
+                "id": 91,
+                "question": "Does Set allow duplicate values?",
+                "options": ["Yes", "No", "Only 2 duplicates", "Only with special syntax"],
+                "answer": "No"
+            },
+            {
+                "id": 92,
+                "question": "What method adds one item to a set?",
+                "options": ["append()", "add()", "insert()", "push()"],
+                "answer": "add()"
+            },
+            {
+                "id": 93,
+                "question": "What method adds multiple items to a set?",
+                "options": ["add()", "update()", "append()", "extend()"],
+                "answer": "update()"
+            },
+            {
+                "id": 94,
+                "question": "What method removes an item from a set?",
+                "options": ["delete()", "remove() or discard()", "pop() only", "clear() only"],
+                "answer": "remove() or discard()"
+            },
+            {
+                "id": 95,
+                "question": "What does clear() do to a set?",
+                "options": ["Deletes the set", "Removes all elements", "Returns length", "Copies the set"],
+                "answer": "Removes all elements"
+            },
+            {
+                "id": 96,
+                "question": "What does del keyword do to a set?",
+                "options": ["Clears elements", "Deletes the set completely", "Returns length", "Copies the set"],
+                "answer": "Deletes the set completely"
+            },
+            {
+                "id": 97,
+                "question": "What does pop() do in a set?",
+                "options": ["Removes specific item", "Removes a random item", "Clears all items", "Returns length"],
+                "answer": "Removes a random item"
+            },
+            {
+                "id": 98,
+                "question": "What data structure stores key:value pairs?",
+                "options": ["List", "Dictionary", "Tuple", "Set"],
+                "answer": "Dictionary"
+            },
+            {
+                "id": 99,
+                "question": "Is a Dictionary ordered or unordered?",
+                "options": ["Unordered (before 3.7), Ordered (3.7+)", "Always unordered", "Always ordered", "Depends on size"],
+                "answer": "Unordered (before 3.7), Ordered (3.7+)"
+            },
+            {
+                "id": 100,
+                "question": "Can Dictionary values be changed?",
+                "options": ["No", "Yes", "Only keys", "Only in Python 2"],
+                "answer": "Yes"
+            },
+            {
+                "id": 101,
+                "question": "Does Dictionary allow duplicate keys?",
+                "options": ["Yes", "No", "Only 2 duplicates", "Only with special syntax"],
+                "answer": "No"
+            },
+            {
+                "id": 102,
+                "question": "What function returns the number of items in a dictionary?",
+                "options": ["count()", "len()", "size()", "length()"],
+                "answer": "len()"
+            },
+            {
+                "id": 103,
+                "question": "What method returns all keys in a dictionary?",
+                "options": ["values()", "keys()", "items()", "get()"],
+                "answer": "keys()"
+            },
+            {
+                "id": 104,
+                "question": "What method returns all values in a dictionary?",
+                "options": ["keys()", "values()", "items()", "get()"],
+                "answer": "values()"
+            },
+            {
+                "id": 105,
+                "question": "What method clears a dictionary?",
+                "options": ["delete()", "clear()", "remove()", "pop()"],
+                "answer": "clear()"
+            },
+            {
+                "id": 106,
+                "question": "What method adds/updates items in a dictionary?",
+                "options": ["add()", "update()", "append()", "insert()"],
+                "answer": "update()"
+            },
+            {
+                "id": 107,
+                "question": "What data type stores multiple items in a single variable?",
+                "options": ["Integer", "List", "Float", "Boolean"],
+                "answer": "List"
+            },
+            {
+                "id": 108,
+                "question": "Are List items ordered?",
+                "options": ["No", "Yes", "Only in Python 3", "Depends on content"],
+                "answer": "Yes"
+            },
+            {
+                "id": 109,
+                "question": "Can List items be changed?",
+                "options": ["No", "Yes", "Only strings", "Only numbers"],
+                "answer": "Yes"
+            },
+            {
+                "id": 110,
+                "question": "Does List allow duplicate values?",
+                "options": ["No", "Yes", "Only 2 duplicates", "Only with special syntax"],
+                "answer": "Yes"
+            },
+            {
+                "id": 111,
+                "question": "Are List items indexed?",
+                "options": ["No", "Yes, starting from 0", "Yes, starting from 1", "Only some items"],
+                "answer": "Yes, starting from 0"
+            },
+            {
+                "id": 112,
+                "question": "What method adds an element to the end of a list?",
+                "options": ["insert()", "append()", "add()", "push()"],
+                "answer": "append()"
+            },
+            {
+                "id": 113,
+                "question": "What method removes all elements from a list?",
+                "options": ["delete()", "clear()", "remove()", "pop()"],
+                "answer": "clear()"
+            },
+            {
+                "id": 114,
+                "question": "What method counts occurrences of a value?",
+                "options": ["count()", "find()", "index()", "search()"],
+                "answer": "count()"
+            },
+            {
+                "id": 115,
+                "question": "What method joins two lists?",
+                "options": ["join()", "extend()", "append()", "merge()"],
+                "answer": "extend()"
+            },
+            {
+                "id": 116,
+                "question": "What method returns the position of a value?",
+                "options": ["find()", "index()", "position()", "locate()"],
+                "answer": "index()"
+            },
+            {
+                "id": 117,
+                "question": "What method inserts a value at a specific position?",
+                "options": ["append()", "insert()", "add()", "push()"],
+                "answer": "insert()"
+            },
+            {
+                "id": 118,
+                "question": "What method reverses a list?",
+                "options": ["reverse()", "invert()", "flip()", "back()"],
+                "answer": "reverse()"
+            },
+            {
+                "id": 119,
+                "question": "What method sorts a list alphabetically?",
+                "options": ["order()", "sort()", "arrange()", "organize()"],
+                "answer": "sort()"
+            },
+            {
+                "id": 120,
+                "question": "What data type is similar to a list but unchangeable?",
+                "options": ["Set", "Tuple", "Dictionary", "Array"],
+                "answer": "Tuple"
+            },
+            {
+                "id": 121,
+                "question": "Are Tuple items ordered?",
+                "options": ["No", "Yes", "Only in Python 3", "Depends on size"],
+                "answer": "Yes"
+            },
+            {
+                "id": 122,
+                "question": "Can Tuple items be changed after creation?",
+                "options": ["Yes", "No", "Only some items", "Only with special syntax"],
+                "answer": "No"
+            },
+            {
+                "id": 123,
+                "question": "Does Tuple allow duplicate values?",
+                "options": ["No", "Yes", "Only 2 duplicates", "Only strings"],
+                "answer": "Yes"
+            },
+            {
+                "id": 124,
+                "question": "How do you access a tuple item?",
+                "options": ["By key", "By index", "By name", "By value only"],
+                "answer": "By index"
+            },
+            {
+                "id": 125,
+                "question": "How do you join two tuples?",
+                "options": ["append()", "Using + operator", "extend()", "merge()"],
+                "answer": "Using + operator"
+            },
+            {
+                "id": 126,
+                "question": "What method counts occurrences in a tuple?",
+                "options": ["find()", "count()", "index()", "search()"],
+                "answer": "count()"
+            },
+            {
+                "id": 127,
+                "question": "What method finds first occurrence in a tuple?",
+                "options": ["find()", "index()", "count()", "locate()"],
+                "answer": "index()"
+            },
+            {
+                "id": 128,
+                "question": "What does range() function return?",
+                "options": ["A list", "A sequence of numbers", "A dictionary", "A string"],
+                "answer": "A sequence of numbers"
+            },
+            {
+                "id": 129,
+                "question": "What is the default start value of range()?",
+                "options": ["1", "0", "-1", "None"],
+                "answer": "0"
+            },
+            {
+                "id": 130,
+                "question": "What is the default step value of range()?",
+                "options": ["0", "1", "2", "-1"],
+                "answer": "1"
+            },
+            {
+                "id": 131,
+                "question": "What is the syntax of range()?",
+                "options": ["range(stop)", "range(start, stop, step)", "Both A and B", "range(step)"],
+                "answer": "Both A and B"
+            },
+            {
+                "id": 132,
+                "question": "Which of the following is a Python keyword?",
+                "options": ["function", "def", "define", "func"],
+                "answer": "def"
+            },
+            {
+                "id": 133,
+                "question": "Which keyword is used for loops?",
+                "options": ["loop", "for", "iterate", "repeat"],
+                "answer": "for"
+            },
+            {
+                "id": 134,
+                "question": "Which keyword is used for conditional statements?",
+                "options": ["cond", "if", "check", "when"],
+                "answer": "if"
+            },
+            {
+                "id": 135,
+                "question": "Which keyword defines a class?",
+                "options": ["struct", "class", "define", "object"],
+                "answer": "class"
+            },
+            {
+                "id": 136,
+                "question": "Which keyword imports modules?",
+                "options": ["include", "import", "using", "require"],
+                "answer": "import"
+            },
+            {
+                "id": 137,
+                "question": "Which keyword returns from a function?",
+                "options": ["exit", "return", "back", "yield"],
+                "answer": "return"
+            },
+            {
+                "id": 138,
+                "question": "Which keyword handles exceptions?",
+                "options": ["catch", "except", "error", "handle"],
+                "answer": "except"
+            },
+            {
+                "id": 139,
+                "question": "Which keyword is used in try-except blocks?",
+                "options": ["finally", "end", "close", "finish"],
+                "answer": "finally"
+            },
+            {
+                "id": 140,
+                "question": "Which keyword creates a lambda function?",
+                "options": ["lambda", "anon", "function", "def"],
+                "answer": "lambda"
+            },
+            {
+                "id": 141,
+                "question": "Which keyword checks for True condition?",
+                "options": ["True", "true", "TRUE", "1"],
+                "answer": "True"
+            },
+            {
+                "id": 142,
+                "question": "Which keyword represents False?",
+                "options": ["False", "false", "FALSE", "0"],
+                "answer": "False"
+            },
+            {
+                "id": 143,
+                "question": "Which keyword represents nothing?",
+                "options": ["null", "None", "nil", "undefined"],
+                "answer": "None"
+            },
+            {
+                "id": 144,
+                "question": "Which keyword is used for 'while' loops?",
+                "options": ["while", "until", "during", "as"],
+                "answer": "while"
+            },
+            {
+                "id": 145,
+                "question": "Which keyword breaks out of a loop?",
+                "options": ["stop", "break", "exit", "end"],
+                "answer": "break"
+            },
+            {
+                "id": 146,
+                "question": "Which keyword skips to next iteration?",
+                "options": ["skip", "continue", "next", "pass"],
+                "answer": "continue"
+            },
+            {
+                "id": 147,
+                "question": "Which keyword does nothing?",
+                "options": ["null", "pass", "void", "none"],
+                "answer": "pass"
+            },
+            {
+                "id": 148,
+                "question": "Which keyword defines an alternative condition?",
+                "options": ["else", "elseif", "elif", "or"],
+                "answer": "elif"
+            },
+            {
+                "id": 149,
+                "question": "Which keyword is used with 'if' for multiple conditions?",
+                "options": ["elseif", "elif", "else if", "orif"],
+                "answer": "elif"
+            },
+            {
+                "id": 150,
+                "question": "What is the purpose of control statements?",
+                "options": ["Print output", "Handle conditions and decisions", "Define variables", "Import modules"],
+                "answer": "Handle conditions and decisions"
+            },
+            {
+                "id": 151,
+                "question": "How many types of if statements are there?",
+                "options": ["2", "3", "4", "5"],
+                "answer": "3"
+            },
+            {
+                "id": 152,
+                "question": "What is a simple if statement used for?",
+                "options": ["Multiple conditions", "Single condition", "Loops", "Functions"],
+                "answer": "Single condition"
+            },
+            {
+                "id": 153,
+                "question": "What is if-else used for?",
+                "options": ["Single condition", "Two possible outcomes", "Multiple conditions", "Loops only"],
+                "answer": "Two possible outcomes"
+            },
+            {
+                "id": 154,
+                "question": "What is elif used for?",
+                "options": ["Single condition", "Multiple conditions in sequence", "Loops", "Functions"],
+                "answer": "Multiple conditions in sequence"
+            },
+            {
+                "id": 155,
+                "question": "What is nested if?",
+                "options": ["if inside another if", "if after else", "if with loop", "if with function"],
+                "answer": "if inside another if"
+            },
+            {
+                "id": 156,
+                "question": "What is match-case similar to?",
+                "options": ["if-else", "switch-case", "for loop", "while loop"],
+                "answer": "switch-case"
+            },
+            {
+                "id": 157,
+                "question": "What does case _ represent in match-case?",
+                "options": ["First case", "Default case", "Error case", "Last case"],
+                "answer": "Default case"
+            },
+            {
+                "id": 158,
+                "question": "How many main types of loops are in Python?",
+                "options": ["1", "2", "3", "4"],
+                "answer": "2"
+            },
+            {
+                "id": 159,
+                "question": "What are the two main loop types?",
+                "options": ["if and else", "for and while", "do and while", "repeat and until"],
+                "answer": "for and while"
+            },
+            {
+                "id": 160,
+                "question": "What is a for loop used for?",
+                "options": ["Unknown iterations", "Iterating over a sequence", "Single execution", "Error handling"],
+                "answer": "Iterating over a sequence"
+            },
+            {
+                "id": 161,
+                "question": "What is a while loop used for?",
+                "options": ["Fixed iterations", "Condition-based iteration", "Single execution", "Function definition"],
+                "answer": "Condition-based iteration"
+            },
+            {
+                "id": 162,
+                "question": "What does range(5) produce?",
+                "options": ["0,1,2,3,4,5", "0,1,2,3,4", "1,2,3,4,5", "5,4,3,2,1"],
+                "answer": "0,1,2,3,4"
+            },
+            {
+                "id": 163,
+                "question": "What does range(1, 6) produce?",
+                "options": ["1,2,3,4,5,6", "1,2,3,4,5", "0,1,2,3,4,5", "6,5,4,3,2,1"],
+                "answer": "1,2,3,4,5"
+            },
+            {
+                "id": 164,
+                "question": "What does range(0, 10, 2) produce?",
+                "options": ["0,2,4,6,8,10", "0,2,4,6,8", "1,3,5,7,9", "2,4,6,8,10"],
+                "answer": "0,2,4,6,8"
+            },
+            {
+                "id": 165,
+                "question": "Can for loop iterate over a list?",
+                "options": ["No", "Yes", "Only strings", "Only numbers"],
+                "answer": "Yes"
+            },
+            {
+                "id": 166,
+                "question": "What happens when while condition becomes False?",
+                "options": ["Loop continues", "Loop stops", "Error occurs", "Infinite loop"],
+                "answer": "Loop stops"
+            },
+            {
+                "id": 167,
+                "question": "What is needed to prevent infinite while loops?",
+                "options": ["break statement", "Condition that eventually becomes False", "continue statement", "pass statement"],
+                "answer": "Condition that eventually becomes False"
+            },
+            {
+                "id": 168,
+                "question": "What is the syntax of for loop with range?",
+                "options": ["for i in range(n):", "for i = 0 to n:", "for (i=0; i<n; i++)", "for i from 0 to n"],
+                "answer": "for i in range(n):"
+            },
+            {
+                "id": 169,
+                "question": "What is the output of: for i in range(3): print(i)?",
+                "options": ["1 2 3", "0 1 2", "0 1 2 3", "Error"],
+                "answer": "0 1 2"
+            },
+            {
+                "id": 170,
+                "question": "Can loops be nested?",
+                "options": ["No", "Yes", "Only for loops", "Only while loops"],
+                "answer": "Yes"
+            },
+            {
+                "id": 171,
+                "question": "What is loop nesting?",
+                "options": ["Loop inside another loop", "Loop after another loop", "Multiple loops in sequence", "Loop with condition"],
+                "answer": "Loop inside another loop"
+            },
+            {
+                "id": 172,
+                "question": "What is the purpose of break statement?",
+                "options": ["Skip iteration", "Exit loop completely", "Continue loop", "Pause loop"],
+                "answer": "Exit loop completely"
+            },
+            {
+                "id": 173,
+                "question": "What is the purpose of continue statement?",
+                "options": ["Exit loop", "Skip to next iteration", "Stop program", "Pause execution"],
+                "answer": "Skip to next iteration"
+            },
+            {
+                "id": 174,
+                "question": "What happens after break in a loop?",
+                "options": ["Loop continues", "Loop terminates", "Next iteration", "Error"],
+                "answer": "Loop terminates"
+            },
+            {
+                "id": 175,
+                "question": "What happens after continue in a loop?",
+                "options": ["Loop terminates", "Next iteration starts", "Loop restarts", "Error"],
+                "answer": "Next iteration starts"
+            },
+            {
+                "id": 176,
+                "question": "What is a function?",
+                "options": ["A variable", "A block of code that runs when called", "A data type", "An operator"],
+                "answer": "A block of code that runs when called"
+            },
+            {
+                "id": 177,
+                "question": "When does a function execute?",
+                "options": ["Immediately when defined", "Only when called", "At program start", "At program end"],
+                "answer": "Only when called"
+            },
+            {
+                "id": 178,
+                "question": "What can be passed into a function?",
+                "options": ["Only numbers", "Data known as parameters", "Only strings", "Nothing"],
+                "answer": "Data known as parameters"
+            },
+            {
+                "id": 179,
+                "question": "Can a function return data?",
+                "options": ["No", "Yes", "Only in Python 3", "Only built-in functions"],
+                "answer": "Yes"
+            },
+            {
+                "id": 180,
+                "question": "How many types of functions are in Python?",
+                "options": ["1", "2", "3", "4"],
+                "answer": "2"
+            },
+            {
+                "id": 181,
+                "question": "What are the two types of functions?",
+                "options": ["Public and Private", "Built-in and User-defined", "Static and Dynamic", "Local and Global"],
+                "answer": "Built-in and User-defined"
+            },
+            {
+                "id": 182,
+                "question": "Which is a built-in function?",
+                "options": ["my_function()", "print()", "custom()", "user_func()"],
+                "answer": "print()"
+            },
+            {
+                "id": 183,
+                "question": "Which is NOT a built-in function?",
+                "options": ["print()", "my_custom()", "len()", "sum()"],
+                "answer": "my_custom()"
+            },
+            {
+                "id": 184,
+                "question": "What does len() function do?",
+                "options": ["Prints length", "Returns length of object", "Creates length", "Deletes object"],
+                "answer": "Returns length of object"
+            },
+            {
+                "id": 185,
+                "question": "What does sum() function do?",
+                "options": ["Multiplies numbers", "Adds numbers", "Subtracts numbers", "Divides numbers"],
+                "answer": "Adds numbers"
+            },
+            {
+                "id": 186,
+                "question": "What does min() function return?",
+                "options": ["Maximum value", "Minimum value", "Average value", "Sum of values"],
+                "answer": "Minimum value"
+            },
+            {
+                "id": 187,
+                "question": "What does max() function return?",
+                "options": ["Minimum value", "Maximum value", "Average value", "Count of values"],
+                "answer": "Maximum value"
+            },
+            {
+                "id": 188,
+                "question": "How do you define a user-defined function?",
+                "options": ["function keyword", "def keyword", "define keyword", "func keyword"],
+                "answer": "def keyword"
+            },
+            {
+                "id": 189,
+                "question": "What is function reusability?",
+                "options": ["Function can only be used once", "Function can be called multiple times", "Function deletes itself", "Function creates copies"],
+                "answer": "Function can be called multiple times"
+            },
+            {
+                "id": 190,
+                "question": "What is function modularity?",
+                "options": ["Code in one big block", "Code organized into smaller logical parts", "Code that cannot be changed", "Code that runs automatically"],
+                "answer": "Code organized into smaller logical parts"
+            },
+            {
+                "id": 191,
+                "question": "What is function flexibility?",
+                "options": ["Functions are fixed", "Functions can be tailored to specific needs", "Functions cannot be modified", "Functions are limited"],
+                "answer": "Functions can be tailored to specific needs"
+            },
+            {
+                "id": 192,
+                "question": "How do you call a function?",
+                "options": ["Using call keyword", "Using function name followed by parentheses", "Using run keyword", "Using execute keyword"],
+                "answer": "Using function name followed by parentheses"
+            },
+            {
+                "id": 193,
+                "question": "What is a lambda function?",
+                "options": ["A named function", "An anonymous function", "A built-in function", "A recursive function"],
+                "answer": "An anonymous function"
+            },
+            {
+                "id": 194,
+                "question": "What keyword defines a lambda function?",
+                "options": ["def", "lambda", "anon", "function"],
+                "answer": "lambda"
+            },
+            {
+                "id": 195,
+                "question": "How many expressions can a lambda have?",
+                "options": ["Any number", "Only one", "Only two", "None"],
+                "answer": "Only one"
+            },
+            {
+                "id": 196,
+                "question": "Does lambda need a return statement?",
+                "options": ["Yes, always", "No, result is implicitly returned", "Only for numbers", "Only for strings"],
+                "answer": "No, result is implicitly returned"
+            },
+            {
+                "id": 197,
+                "question": "What is lambda useful for?",
+                "options": ["Complex operations", "Short, simple operations", "File handling", "Database operations"],
+                "answer": "Short, simple operations"
+            },
+            {
+                "id": 198,
+                "question": "What is the syntax of lambda?",
+                "options": ["lambda: expression", "lambda arguments: expression", "lambda (arguments) {expression}", "lambda -> expression"],
+                "answer": "lambda arguments: expression"
+            },
+            {
+                "id": 199,
+                "question": "Can lambda have multiple parameters?",
+                "options": ["No", "Yes", "Only 2", "Only 3"],
+                "answer": "Yes"
+            },
+            {
+                "id": 200,
+                "question": "What is the output of: add = lambda x, y: x + y; print(add(2, 3))?",
+                "options": ["23", "5", "6", "Error"],
+                "answer": "5"
+            },
+            {
+                "id": 201,
+                "question": "What is function scope?",
+                "options": ["Where function is defined", "Region where variable is available", "Function name", "Function parameters"],
+                "answer": "Region where variable is available"
+            },
+            {
+                "id": 202,
+                "question": "How many types of scope are there?",
+                "options": ["1", "2", "3", "4"],
+                "answer": "2"
+            },
+            {
+                "id": 203,
+                "question": "What are the two types of scope?",
+                "options": ["Public and Private", "Local and Global", "Internal and External", "Static and Dynamic"],
+                "answer": "Local and Global"
+            },
+            {
+                "id": 204,
+                "question": "What is local scope?",
+                "options": ["Variable in main body", "Variable inside a function", "Variable in a class", "Variable in a module"],
+                "answer": "Variable inside a function"
+            },
+            {
+                "id": 205,
+                "question": "What is global scope?",
+                "options": ["Variable inside a function", "Variable in main body of code", "Variable in a loop", "Variable in a class"],
+                "answer": "Variable in main body of code"
+            },
+            {
+                "id": 206,
+                "question": "Can a local variable be used outside its function?",
+                "options": ["Yes", "No", "Only with global keyword", "Only in Python 3"],
+                "answer": "No"
+            },
+            {
+                "id": 207,
+                "question": "Can a global variable be used inside a function?",
+                "options": ["No", "Yes", "Only with local keyword", "Only in Python 2"],
+                "answer": "Yes"
+            },
+            {
+                "id": 208,
+                "question": "How do you modify a global variable inside a function?",
+                "options": ["Using local keyword", "Using global keyword", "Using extern keyword", "Cannot be done"],
+                "answer": "Using global keyword"
+            },
+            {
+                "id": 209,
+                "question": "What is a parameter?",
+                "options": ["A return value", "A variable in function definition", "A function name", "A data type"],
+                "answer": "A variable in function definition"
+            },
+            {
+                "id": 210,
+                "question": "What is an argument?",
+                "options": ["A variable in function definition", "A value passed to function", "A return value", "A function name"],
+                "answer": "A value passed to function"
+            },
+            {
+                "id": 211,
+                "question": "Can functions have default parameter values?",
+                "options": ["No", "Yes", "Only in Python 3", "Only for strings"],
+                "answer": "Yes"
+            },
+            {
+                "id": 212,
+                "question": "What are *args used for?",
+                "options": ["Keyword arguments", "Variable number of positional arguments", "Default arguments", "No arguments"],
+                "answer": "Variable number of positional arguments"
+            },
+            {
+                "id": 213,
+                "question": "What are **kwargs used for?",
+                "options": ["Positional arguments", "Variable number of keyword arguments", "Default arguments", "No arguments"],
+                "answer": "Variable number of keyword arguments"
+            },
+            {
+                "id": 214,
+                "question": "What does OOP stand for?",
+                "options": ["Object Oriented Programming", "Object Operation Process", "Ordered Object Programming", "Object Output Program"],
+                "answer": "Object Oriented Programming"
+            },
+            {
+                "id": 215,
+                "question": "What is a class in Python?",
+                "options": ["A function", "A blueprint for creating objects", "A variable", "A data type"],
+                "answer": "A blueprint for creating objects"
+            },
+            {
+                "id": 216,
+                "question": "What is an object?",
+                "options": ["A keyword", "An instance of a class", "A function", "A module"],
+                "answer": "An instance of a class"
+            },
+            {
+                "id": 217,
+                "question": "What keyword creates a class?",
+                "options": ["object", "class", "struct", "define"],
+                "answer": "class"
+            },
+            {
+                "id": 218,
+                "question": "How do you create an object from a class?",
+                "options": ["Using new keyword", "By calling class like a function", "Using create keyword", "Using object keyword"],
+                "answer": "By calling class like a function"
+            },
+            {
+                "id": 219,
+                "question": "What is inheritance?",
+                "options": ["Copying code", "Inheriting methods and properties from another class", "Creating new variables", "Deleting objects"],
+                "answer": "Inheriting methods and properties from another class"
+            },
+            {
+                "id": 220,
+                "question": "What is polymorphism?",
+                "options": ["Single form", "Having many forms", "No form", "Fixed form"],
+                "answer": "Having many forms"
+            },
+            {
+                "id": 221,
+                "question": "What is encapsulation?",
+                "options": ["Exposing all data", "Bundling data and methods together", "Deleting data", "Copying data"],
+                "answer": "Bundling data and methods together"
+            },
+            {
+                "id": 222,
+                "question": "What is abstraction?",
+                "options": ["Showing all details", "Hiding complex implementation details", "Copying code", "Deleting code"],
+                "answer": "Hiding complex implementation details"
+            },
+            {
+                "id": 223,
+                "question": "What is the parent class also called?",
+                "options": ["Derived class", "Base class", "Child class", "Sub class"],
+                "answer": "Base class"
+            },
+            {
+                "id": 224,
+                "question": "What is the child class also called?",
+                "options": ["Base class", "Derived class", "Parent class", "Super class"],
+                "answer": "Derived class"
+            },
+            {
+                "id": 225,
+                "question": "How many types of inheritance are there?",
+                "options": ["3", "4", "5", "6"],
+                "answer": "5"
+            },
+            {
+                "id": 226,
+                "question": "What is single inheritance?",
+                "options": ["Inheriting from multiple classes", "Inheriting from one parent class", "No inheritance", "Self inheritance"],
+                "answer": "Inheriting from one parent class"
+            },
+            {
+                "id": 227,
+                "question": "What is multiple inheritance?",
+                "options": ["Inheriting from one class", "Inheriting from more than one base class", "No inheritance", "Self inheritance"],
+                "answer": "Inheriting from more than one base class"
+            },
+            {
+                "id": 228,
+                "question": "What is multilevel inheritance?",
+                "options": ["Inheriting from one class", "Inheritance at multiple levels (grandparent-parent-child)", "No inheritance", "Multiple children"],
+                "answer": "Inheritance at multiple levels (grandparent-parent-child)"
+            },
+            {
+                "id": 229,
+                "question": "What is hierarchical inheritance?",
+                "options": ["One child, multiple parents", "Multiple children from one parent", "No inheritance", "Self inheritance"],
+                "answer": "Multiple children from one parent"
+            },
+            {
+                "id": 230,
+                "question": "What is hybrid inheritance?",
+                "options": ["Single type only", "Combination of multiple inheritance types", "No inheritance", "Only multilevel"],
+                "answer": "Combination of multiple inheritance types"
+            },
+            {
+                "id": 231,
+                "question": "What is the __init__() function?",
+                "options": ["A destructor", "Constructor called when object is created", "A regular method", "A static method"],
+                "answer": "Constructor called when object is created"
+            },
+            {
+                "id": 232,
+                "question": "When is __init__() executed?",
+                "options": ["When class is defined", "When object is created", "When program ends", "When module is imported"],
+                "answer": "When object is created"
+            },
+            {
+                "id": 233,
+                "question": "What is the purpose of __init__()?",
+                "options": ["To delete objects", "To assign values to object properties", "To print output", "To import modules"],
+                "answer": "To assign values to object properties"
+            },
+            {
+                "id": 234,
+                "question": "What does 'self' represent in a class?",
+                "options": ["A keyword", "The instance of the class", "A function", "A module"],
+                "answer": "The instance of the class"
+            },
+            {
+                "id": 235,
+                "question": "Is 'self' passed automatically to methods?",
+                "options": ["No, must be passed manually", "Yes, automatically", "Only in Python 2", "Only for static methods"],
+                "answer": "Yes, automatically"
+            },
+            {
+                "id": 236,
+                "question": "What can 'self' be used for?",
+                "options": ["Only printing", "Modifying object properties and executing tasks", "Only importing", "Only deleting"],
+                "answer": "Modifying object properties and executing tasks"
+            },
+            {
+                "id": 237,
+                "question": "What is the output of print(5+5) vs print('5'+'5')?",
+                "options": ["Both 10", "10 and 55", "Both 55", "Error"],
+                "answer": "10 and 55"
+            },
+            {
+                "id": 238,
+                "question": "What is method overriding?",
+                "options": ["Creating new method", "Redefining parent method in child class", "Deleting method", "Copying method"],
+                "answer": "Redefining parent method in child class"
+            },
+            {
+                "id": 239,
+                "question": "What is method overloading?",
+                "options": ["Python supports it directly", "Same function name, different parameters (not directly supported)", "Creating multiple classes", "Deleting methods"],
+                "answer": "Same function name, different parameters (not directly supported)"
+            },
+            {
+                "id": 240,
+                "question": "What are access modifiers?",
+                "options": ["Functions", "Keywords that set accessibility of class members", "Variables", "Loops"],
+                "answer": "Keywords that set accessibility of class members"
+            },
+            {
+                "id": 241,
+                "question": "How many access modifiers in Python?",
+                "options": ["2", "3", "4", "5"],
+                "answer": "3"
+            },
+            {
+                "id": 242,
+                "question": "What are the access modifiers?",
+                "options": ["Public, Protected, Private", "Public, Private, Internal", "Open, Closed, Hidden", "Global, Local, Static"],
+                "answer": "Public, Protected, Private"
+            },
+            {
+                "id": 243,
+                "question": "How is a public member defined?",
+                "options": ["With __ prefix", "With _ prefix", "No prefix", "With ## prefix"],
+                "answer": "No prefix"
+            },
+            {
+                "id": 244,
+                "question": "How is a protected member defined?",
+                "options": ["With __ prefix", "With _ prefix", "No prefix", "With ## prefix"],
+                "answer": "With _ prefix"
+            },
+            {
+                "id": 245,
+                "question": "How is a private member defined?",
+                "options": ["With __ prefix", "With _ prefix", "No prefix", "With ## prefix"],
+                "answer": "With __ prefix"
+            },
+            {
+                "id": 246,
+                "question": "Can public members be accessed directly?",
+                "options": ["No", "Yes, by any class", "Only within class", "Only by subclasses"],
+                "answer": "Yes, by any class"
+            },
+            {
+                "id": 247,
+                "question": "Can protected members be accessed outside class?",
+                "options": ["No, never", "Conventionally no, but technically yes", "Only within class", "Only by subclasses"],
+                "answer": "Conventionally no, but technically yes"
+            },
+            {
+                "id": 248,
+                "question": "Can private members be accessed outside class?",
+                "options": ["Yes", "No, only within same class", "Only by subclasses", "Only by any class"],
+                "answer": "No, only within same class"
+            },
+            {
+                "id": 249,
+                "question": "What is name mangling?",
+                "options": ["Renaming files", "Changing __var to _ClassName__var", "Creating names", "Deleting names"],
+                "answer": "Changing __var to _ClassName__var"
+            },
+            {
+                "id": 250,
+                "question": "What is an instance variable?",
+                "options": ["Shared by all instances", "Unique to each instance", "A class variable", "A global variable"],
+                "answer": "Unique to each instance"
+            },
+
+            {
+                "id": 251,
+                "question": "What is a class variable?",
+                "options": ["Unique to each instance", "Shared by all instances of the class", "A local variable", "A global variable"],
+                "answer": "Shared by all instances of the class"
+            },
+            {
+                "id": 252,
+                "question": "What is a static method?",
+                "options": ["Method that uses self", "Method that doesn't use self or cls", "Method that uses cls only", "A constructor"],
+                "answer": "Method that doesn't use self or cls"
+            },
+            {
+                "id": 253,
+                "question": "What decorator creates a static method?",
+                "options": ["@classmethod", "@staticmethod", "@property", "@abstract"],
+                "answer": "@staticmethod"
+            },
+            {
+                "id": 254,
+                "question": "What is a class method?",
+                "options": ["Method that uses self", "Method that uses cls as first parameter", "A regular method", "A constructor"],
+                "answer": "Method that uses cls as first parameter"
+            },
+            {
+                "id": 255,
+                "question": "What decorator creates a class method?",
+                "options": ["@staticmethod", "@classmethod", "@property", "@abstract"],
+                "answer": "@classmethod"
+            },
+            {
+                "id": 256,
+                "question": "What does @property decorator do?",
+                "options": ["Creates a static method", "Makes method act like an attribute", "Creates a class method", "Deletes a method"],
+                "answer": "Makes method act like an attribute"
+            },
+            {
+                "id": 257,
+                "question": "What is the super() function used for?",
+                "options": ["Creating objects", "Calling parent class methods", "Deleting objects", "Importing modules"],
+                "answer": "Calling parent class methods"
+            },
+            {
+                "id": 258,
+                "question": "What is the isinstance() function?",
+                "options": ["Creates instance", "Checks if object is instance of class", "Deletes instance", "Copies instance"],
+                "answer": "Checks if object is instance of class"
+            },
+            {
+                "id": 259,
+                "question": "What is the issubclass() function?",
+                "options": ["Creates subclass", "Checks if class is subclass of another", "Deletes subclass", "Copies subclass"],
+                "answer": "Checks if class is subclass of another"
+            },
+            {
+                "id": 260,
+                "question": "What is duck typing?",
+                "options": ["Typing with ducks", "If it walks like duck and quacks like duck, it's a duck", "A type of loop", "A data structure"],
+                "answer": "If it walks like duck and quacks like duck, it's a duck"
+            },
+            {
+                "id": 261,
+                "question": "What is composition?",
+                "options": ["Inheritance", "Has-a relationship between classes", "Is-a relationship", "Polymorphism"],
+                "answer": "Has-a relationship between classes"
+            },
+            {
+                "id": 262,
+                "question": "What happens when an error occurs in Python?",
+                "options": ["Program continues", "Python stops and generates error message", "Program restarts", "Error is ignored"],
+                "answer": "Python stops and generates error message"
+            },
+            {
+                "id": 263,
+                "question": "What is the purpose of try block?",
+                "options": ["To handle error", "To test code for errors", "To ignore errors", "To print errors"],
+                "answer": "To test code for errors"
+            },
+            {
+                "id": 264,
+                "question": "What is the purpose of except block?",
+                "options": ["To test code", "To handle the error", "To create errors", "To ignore code"],
+                "answer": "To handle the error"
+            },
+            {
+                "id": 265,
+                "question": "What is the purpose of else block?",
+                "options": ["Always executes", "Executes when no error occurs", "Handles errors", "Creates errors"],
+                "answer": "Executes when no error occurs"
+            },
+            {
+                "id": 266,
+                "question": "What is the purpose of finally block?",
+                "options": ["Executes only on error", "Executes regardless of result", "Never executes", "Executes only on success"],
+                "answer": "Executes regardless of result"
+            },
+            {
+                "id": 267,
+                "question": "Can multiple except blocks be used?",
+                "options": ["No", "Yes", "Only 2", "Only 3"],
+                "answer": "Yes"
+            },
+            {
+                "id": 268,
+                "question": "What is the syntax for try-except?",
+                "options": ["try: ... catch: ...", "try: ... except: ...", "try: ... error: ...", "try: ... handle: ..."],
+                "answer": "try: ... except: ..."
+            },
+            {
+                "id": 269,
+                "question": "What happens if no exception occurs?",
+                "options": ["except block runs", "else block runs if present", "finally doesn't run", "Program crashes"],
+                "answer": "else block runs if present"
+            },
+            {
+                "id": 270,
+                "question": "What happens if exception occurs?",
+                "options": ["else block runs", "except block runs", "finally doesn't run", "Program continues normally"],
+                "answer": "except block runs"
+            },
+            {
+                "id": 271,
+                "question": "Does finally block always execute?",
+                "options": ["No", "Yes", "Only on error", "Only on success"],
+                "answer": "Yes"
+            },
+            {
+                "id": 272,
+                "question": "What is a ZeroDivisionError?",
+                "options": ["Dividing by zero", "Adding zero", "Multiplying by zero", "Subtracting zero"],
+                "answer": "Dividing by zero"
+            },
+            {
+                "id": 273,
+                "question": "What is a ValueError?",
+                "options": ["Wrong data type", "Wrong value for operation", "Missing value", "Extra value"],
+                "answer": "Wrong value for operation"
+            },
+            {
+                "id": 274,
+                "question": "What is a TypeError?",
+                "options": ["Wrong value", "Operation on wrong type", "Missing type", "Extra type"],
+                "answer": "Operation on wrong type"
+            },
+            {
+                "id": 275,
+                "question": "What is an IndexError?",
+                "options": ["Wrong index type", "Index out of range", "Missing index", "Extra index"],
+                "answer": "Index out of range"
+            },
+            {
+                "id": 276,
+                "question": "What is a KeyError?",
+                "options": ["Wrong key type", "Key not found in dictionary", "Missing key", "Extra key"],
+                "answer": "Key not found in dictionary"
+            },
+            {
+                "id": 277,
+                "question": "What is a NameError?",
+                "options": ["Wrong name type", "Variable not defined", "Missing name", "Extra name"],
+                "answer": "Variable not defined"
+            },
+            {
+                "id": 278,
+                "question": "What is a SyntaxError?",
+                "options": ["Wrong output", "Invalid Python syntax", "Missing syntax", "Extra syntax"],
+                "answer": "Invalid Python syntax"
+            },
+            {
+                "id": 279,
+                "question": "What is a FileNotFoundError?",
+                "options": ["Wrong file type", "File does not exist", "Missing file content", "Extra file content"],
+                "answer": "File does not exist"
+            },
+            {
+                "id": 280,
+                "question": "What is the raise keyword used for?",
+                "options": ["To catch exception", "To raise an exception", "To ignore exception", "To print exception"],
+                "answer": "To raise an exception"
+            },
+            {
+                "id": 281,
+                "question": "Can you create custom exceptions?",
+                "options": ["No", "Yes, by inheriting Exception class", "Only in Python 3", "Only built-in exceptions"],
+                "answer": "Yes, by inheriting Exception class"
+            },
+            {
+                "id": 282,
+                "question": "What is exception chaining?",
+                "options": ["Multiple exceptions at once", "Linking exceptions with 'from'", "Ignoring exceptions", "Printing exceptions"],
+                "answer": "Linking exceptions with 'from'"
+            },
+            {
+                "id": 283,
+                "question": "What does assert statement do?",
+                "options": ["Prints message", "Tests condition, raises AssertionError if False", "Ignores condition", "Creates exception"],
+                "answer": "Tests condition, raises AssertionError if False"
+            },
+            {
+                "id": 284,
+                "question": "What is file handling?",
+                "options": ["Deleting files", "Creating, reading, updating, deleting files", "Only reading files", "Only creating files"],
+                "answer": "Creating, reading, updating, deleting files"
+            },
+            {
+                "id": 285,
+                "question": "What function works with files?",
+                "options": ["file()", "open()", "read()", "write()"],
+                "answer": "open()"
+            },
+            {
+                "id": 286,
+                "question": "How many parameters does open() take?",
+                "options": ["1", "2", "3", "4"],
+                "answer": "2"
+            },
+            {
+                "id": 287,
+                "question": "What are the parameters of open()?",
+                "options": ["filename only", "filename and mode", "mode only", "content only"],
+                "answer": "filename and mode"
+            },
+            {
+                "id": 288,
+                "question": "What mode opens file for reading?",
+                "options": ["w", "r", "a", "x"],
+                "answer": "r"
+            },
+            {
+                "id": 289,
+                "question": "What mode opens file for writing?",
+                "options": ["r", "w", "a", "x"],
+                "answer": "w"
+            },
+            {
+                "id": 290,
+                "question": "What mode opens file for appending?",
+                "options": ["r", "w", "a", "x"],
+                "answer": "a"
+            },
+            {
+                "id": 291,
+                "question": "What mode creates a new file?",
+                "options": ["r", "w", "a", "x"],
+                "answer": "x"
+            },
+            {
+                "id": 292,
+                "question": "What happens if 'r' mode file doesn't exist?",
+                "options": ["Creates file", "Error", "Empty file", "None"],
+                "answer": "Error"
+            },
+            {
+                "id": 293,
+                "question": "What happens if 'w' mode file exists?",
+                "options": ["Appends", "Overwrites", "Error", "Ignores"],
+                "answer": "Overwrites"
+            },
+            {
+                "id": 294,
+                "question": "What happens if 'x' mode file exists?",
+                "options": ["Overwrites", "Error", "Appends", "Ignores"],
+                "answer": "Error"
+            },
+            {
+                "id": 295,
+                "question": "What method reads file content?",
+                "options": ["write()", "read()", "append()", "create()"],
+                "answer": "read()"
+            },
+            {
+                "id": 296,
+                "question": "What method writes to a file?",
+                "options": ["read()", "write()", "append()", "create()"],
+                "answer": "write()"
+            },
+            {
+                "id": 297,
+                "question": "What is the default mode of open()?",
+                "options": ["w", "r", "a", "x"],
+                "answer": "r"
+            },
+            {
+                "id": 298,
+                "question": "What module is needed to delete files?",
+                "options": ["file", "os", "sys", "delete"],
+                "answer": "os"
+            },
+            {
+                "id": 299,
+                "question": "What function deletes a file?",
+                "options": ["delete()", "os.remove()", "remove()", "erase()"],
+                "answer": "os.remove()"
+            },
+            {
+                "id": 300,
+                "question": "What is the 'with' statement used for?",
+                "options": ["Loops", "Context manager for file handling", "Conditions", "Functions"],
+                "answer": "Context manager for file handling"
+            },
+            {
+                "id": 301,
+                "question": "Does 'with' automatically close files?",
+                "options": ["No", "Yes", "Only in Python 3", "Only for read mode"],
+                "answer": "Yes"
+            },
+            {
+                "id": 302,
+                "question": "What method closes a file?",
+                "options": ["end()", "close()", "stop()", "finish()"],
+                "answer": "close()"
+            },
+            {
+                "id": 303,
+                "question": "What is a module?",
+                "options": ["A variable", "A Python code library", "A function", "A loop"],
+                "answer": "A Python code library"
+            },
+            {
+                "id": 304,
+                "question": "What is PIP?",
+                "options": ["A snake", "A package manager for Python", "A programming language", "A data type"],
+                "answer": "A package manager for Python"
+            },
+            {
+                "id": 305,
+                "question": "What does PIP stand for?",
+                "options": ["Python Installation Program", "Pip Installs Packages", "Python Integrated Package", "Not an acronym"],
+                "answer": "Pip Installs Packages"
+            },
+            {
+                "id": 306,
+                "question": "How do you check PIP version?",
+                "options": ["pip -v", "pip --version", "pip version", "pip check"],
+                "answer": "pip --version"
+            },
+            {
+                "id": 307,
+                "question": "How do you install a package with PIP?",
+                "options": ["pip get package", "pip install package", "pip add package", "pip download package"],
+                "answer": "pip install package"
+            },
+            {
+                "id": 308,
+                "question": "How do you list installed packages?",
+                "options": ["pip show", "pip list", "pip display", "pip view"],
+                "answer": "pip list"
+            },
+            {
+                "id": 309,
+                "question": "How do you uninstall a package?",
+                "options": ["pip delete package", "pip uninstall package", "pip remove package", "pip erase package"],
+                "answer": "pip uninstall package"
+            },
+            {
+                "id": 310,
+                "question": "What keyword imports a module?",
+                "options": ["include", "import", "using", "require"],
+                "answer": "import"
+            },
+            {
+                "id": 311,
+                "question": "What is a package?",
+                "options": ["A single file", "A collection of modules", "A variable", "A function"],
+                "answer": "A collection of modules"
+            },
+            {
+                "id": 312,
+                "question": "What file marks a directory as Python package?",
+                "options": ["package.txt", "__init__.py", "init.py", "package.py"],
+                "answer": "__init__.py"
+            },
+            {
+                "id": 313,
+                "question": "What is the math module used for?",
+                "options": ["String operations", "Mathematical operations", "File operations", "Network operations"],
+                "answer": "Mathematical operations"
+            },
+            {
+                "id": 314,
+                "question": "What does math.sqrt() do?",
+                "options": ["Squares a number", "Returns square root", "Returns cube root", "Returns power"],
+                "answer": "Returns square root"
+            },
+            {
+                "id": 315,
+                "question": "What does math.factorial() do?",
+                "options": ["Adds numbers", "Returns factorial", "Multiplies numbers", "Divides numbers"],
+                "answer": "Returns factorial"
+            },
+            {
+                "id": 316,
+                "question": "What does math.ceil() do?",
+                "options": ["Rounds down", "Rounds up", "Returns absolute", "Returns power"],
+                "answer": "Rounds up"
+            },
+            {
+                "id": 317,
+                "question": "What does math.floor() do?",
+                "options": ["Rounds up", "Rounds down", "Returns absolute", "Returns power"],
+                "answer": "Rounds down"
+            },
+            {
+                "id": 318,
+                "question": "What does abs() function do?",
+                "options": ["Returns absolute value", "Returns negative value", "Returns zero", "Returns one"],
+                "answer": "Returns absolute value"
+            },
+            {
+                "id": 319,
+                "question": "What does pow() function do?",
+                "options": ["Adds numbers", "Returns power", "Multiplies numbers", "Divides numbers"],
+                "answer": "Returns power"
+            },
+            {
+                "id": 320,
+                "question": "What does round() function do?",
+                "options": ["Always rounds up", "Rounds to nearest integer", "Always rounds down", "Returns absolute"],
+                "answer": "Rounds to nearest integer"
+            },
+            {
+                "id": 321,
+                "question": "What does divmod() return?",
+                "options": ["Sum and difference", "Quotient and remainder", "Product and division", "Max and min"],
+                "answer": "Quotient and remainder"
+            },
+            {
+                "id": 322,
+                "question": "What is the datetime module used for?",
+                "options": ["Math operations", "Working with dates and times", "File operations", "Network operations"],
+                "answer": "Working with dates and times"
+            },
+            {
+                "id": 323,
+                "question": "What creates a datetime object?",
+                "options": ["datetime.create()", "datetime.datetime.now()", "datetime.new()", "datetime.get()"],
+                "answer": "datetime.datetime.now()"
+            },
+            {
+                "id": 324,
+                "question": "What does strftime() do?",
+                "options": ["Parses string to date", "Formats date as string", "Creates date", "Deletes date"],
+                "answer": "Formats date as string"
+            },
+            {
+                "id": 325,
+                "question": "What does %Y represent in strftime?",
+                "options": ["Short year", "Full year", "Month", "Day"],
+                "answer": "Full year"
+            },
+            {
+                "id": 326,
+                "question": "What does %m represent in strftime?",
+                "options": ["Minute", "Month as number", "Month name", "Millisecond"],
+                "answer": "Month as number"
+            },
+            {
+                "id": 327,
+                "question": "What does %d represent in strftime?",
+                "options": ["Day of month", "Day of week", "Date", "Decimal"],
+                "answer": "Day of month"
+            },
+            {
+                "id": 328,
+                "question": "What does %H represent in strftime?",
+                "options": ["Hour 00-12", "Hour 00-23", "Minute", "Second"],
+                "answer": "Hour 00-23"
+            },
+            {
+                "id": 329,
+                "question": "What does %M represent in strftime?",
+                "options": ["Month", "Minute", "Millisecond", "Microsecond"],
+                "answer": "Minute"
+            },
+            {
+                "id": 330,
+                "question": "What does %S represent in strftime?",
+                "options": ["Month", "Minute", "Second", "String"],
+                "answer": "Second"
+            },
+            {
+                "id": 331,
+                "question": "What is the json module used for?",
+                "options": ["Database operations", "Working with JSON data", "File operations", "Network operations"],
+                "answer": "Working with JSON data"
+            },
+            {
+                "id": 332,
+                "question": "What does json.dumps() do?",
+                "options": ["Parses JSON", "Converts Python object to JSON string", "Reads JSON file", "Writes JSON file"],
+                "answer": "Converts Python object to JSON string"
+            },
+            {
+                "id": 333,
+                "question": "Can Python be used with databases?",
+                "options": ["No", "Yes", "Only NoSQL", "Only SQL"],
+                "answer": "Yes"
+            },
+            {
+                "id": 334,
+                "question": "What is a popular SQL database for Python?",
+                "options": ["MongoDB", "MySQL", "Redis", "Cassandra"],
+                "answer": "MySQL"
+            },
+            {
+                "id": 335,
+                "question": "What driver is needed for MySQL in Python?",
+                "options": ["mysql-driver", "mysql-connector", "mysql-python", "mysql-lib"],
+                "answer": "mysql-connector"
+            },
+            {
+                "id": 336,
+                "question": "How do you install MySQL connector?",
+                "options": ["pip get mysql", "pip install mysql-connector", "pip add mysql", "pip download mysql"],
+                "answer": "pip install mysql-connector"
+            },
+            {
+                "id": 337,
+                "question": "What function connects to MySQL?",
+                "options": ["mysql.connect()", "mysql.connector.connect()", "mysql.connection()", "mysql.link()"],
+                "answer": "mysql.connector.connect()"
+            },
+            {
+                "id": 338,
+                "question": "What parameter specifies the host?",
+                "options": ["server", "host", "location", "address"],
+                "answer": "host"
+            },
+            {
+                "id": 339,
+                "question": "What parameter specifies the username?",
+                "options": ["username", "user", "name", "login"],
+                "answer": "user"
+            },
+            {
+                "id": 340,
+                "question": "What parameter specifies the password?",
+                "options": ["pass", "password", "pwd", "secret"],
+                "answer": "password"
+            },
+            {
+                "id": 341,
+                "question": "What creates a cursor object?",
+                "options": ["db.cursor()", "db.create()", "db.new()", "db.open()"],
+                "answer": "db.cursor()"
+            },
+            {
+                "id": 342,
+                "question": "What method executes SQL queries?",
+                "options": ["run()", "execute()", "query()", "sql()"],
+                "answer": "execute()"
+            },
+            {
+                "id": 343,
+                "question": "What SQL command creates a database?",
+                "options": ["MAKE DATABASE", "CREATE DATABASE", "NEW DATABASE", "ADD DATABASE"],
+                "answer": "CREATE DATABASE"
+            },
+            {
+                "id": 344,
+                "question": "What SQL command creates a table?",
+                "options": ["MAKE TABLE", "CREATE TABLE", "NEW TABLE", "ADD TABLE"],
+                "answer": "CREATE TABLE"
+            },
+            {
+                "id": 345,
+                "question": "What SQL command inserts data?",
+                "options": ["ADD INTO", "INSERT INTO", "PUT INTO", "SET INTO"],
+                "answer": "INSERT INTO"
+            },
+            {
+                "id": 346,
+                "question": "What SQL command selects data?",
+                "options": ["GET", "SELECT", "FETCH", "READ"],
+                "answer": "SELECT"
+            },
+            {
+                "id": 347,
+                "question": "What SQL command deletes data?",
+                "options": ["REMOVE", "DELETE", "ERASE", "DROP"],
+                "answer": "DELETE"
+            },
+            {
+                "id": 348,
+                "question": "What SQL command updates data?",
+                "options": ["CHANGE", "UPDATE", "MODIFY", "SET"],
+                "answer": "UPDATE"
+            },
+            {
+                "id": 349,
+                "question": "What method commits changes?",
+                "options": ["db.save()", "db.commit()", "db.write()", "db.push()"],
+                "answer": "db.commit()"
+            },
+            {
+                "id": 350,
+                "question": "What method fetches all results?",
+                "options": ["getAll()", "fetchall()", "getall()", "fetchAll()"],
+                "answer": "fetchall()"
+            },
+            {
+                "id": 351,
+                "question": "What is MongoDB?",
+                "options": ["SQL database", "NoSQL database", "Graph database", "Key-value store"],
+                "answer": "NoSQL database"
+            },
+            {
+                "id": 352,
+                "question": "What format does MongoDB use?",
+                "options": ["XML", "JSON-like documents", "CSV", "YAML"],
+                "answer": "JSON-like documents"
+            },
+            {
+                "id": 353,
+                "question": "What driver is used for MongoDB?",
+                "options": ["mongodb", "pymongo", "mongopy", "pymongodb"],
+                "answer": "pymongo"
+            },
+            {
+                "id": 354,
+                "question": "How do you install PyMongo?",
+                "options": ["pip get pymongo", "pip install pymongo", "pip add pymongo", "pip download pymongo"],
+                "answer": "pip install pymongo"
+            },
+            {
+                "id": 355,
+                "question": "What class connects to MongoDB?",
+                "options": ["MongoDB", "MongoClient", "Client", "Connection"],
+                "answer": "MongoClient"
+            },
+            {
+                "id": 356,
+                "question": "What method inserts one document?",
+                "options": ["add_one()", "insert_one()", "put_one()", "save_one()"],
+                "answer": "insert_one()"
+            },
+            {
+                "id": 357,
+                "question": "What method finds documents?",
+                "options": ["search()", "find()", "get()", "select()"],
+                "answer": "find()"
+            },
+            {
+                "id": 358,
+                "question": "What method deletes one document?",
+                "options": ["remove_one()", "delete_one()", "erase_one()", "drop_one()"],
+                "answer": "delete_one()"
+            },
+            {
+                "id": 359,
+                "question": "What method updates a document?",
+                "options": ["change_one()", "update_one()", "modify_one()", "set_one()"],
+                "answer": "update_one()"
+            },
+            {
+                "id": 360,
+                "question": "What is NumPy?",
+                "options": ["A web framework", "A library for numerical computing", "A database", "A game engine"],
+                "answer": "A library for numerical computing"
+            },
+            {
+                "id": 361,
+                "question": "What does NumPy stand for?",
+                "options": ["Number Python", "Numerical Python", "Numeric Python", "New Python"],
+                "answer": "Numerical Python"
+            },
+            {
+                "id": 362,
+                "question": "Who created NumPy?",
+                "options": ["Guido van Rossum", "Travis Oliphant", "Wes McKinney", "James Gosling"],
+                "answer": "Travis Oliphant"
+            },
+            {
+                "id": 363,
+                "question": "When was NumPy created?",
+                "options": ["2000", "2005", "2010", "2015"],
+                "answer": "2005"
+            },
+            {
+                "id": 364,
+                "question": "What is the NumPy array object called?",
+                "options": ["array", "ndarray", "nparray", "numarray"],
+                "answer": "ndarray"
+            },
+            {
+                "id": 365,
+                "question": "How much faster is NumPy than lists?",
+                "options": ["Same speed", "Up to 50x faster", "2x faster", "10x faster"],
+                "answer": "Up to 50x faster"
+            },
+            {
+                "id": 366,
+                "question": "What is Pandas used for?",
+                "options": ["Web development", "Data analysis and manipulation", "Game development", "Machine learning only"],
+                "answer": "Data analysis and manipulation"
+            },
+            {
+                "id": 367,
+                "question": "Who created Pandas?",
+                "options": ["Guido van Rossum", "Wes McKinney", "Travis Oliphant", "James Gosling"],
+                "answer": "Wes McKinney"
+            },
+            {
+                "id": 368,
+                "question": "When was Pandas created?",
+                "options": ["2005", "2008", "2010", "2012"],
+                "answer": "2008"
+            },
+            {
+                "id": 369,
+                "question": "What does Pandas DataFrame represent?",
+                "options": ["A function", "A 2-dimensional labeled data structure", "A loop", "A variable"],
+                "answer": "A 2-dimensional labeled data structure"
+            },
+            {
+                "id": 370,
+                "question": "What is a QR Code?",
+                "options": ["A barcode", "A two-dimensional barcode", "A text code", "A number code"],
+                "answer": "A two-dimensional barcode"
+            },
+            {
+                "id": 371,
+                "question": "What library generates QR codes?",
+                "options": ["barcode", "qrcode", "qr", "code"],
+                "answer": "qrcode"
+            },
+            {
+                "id": 372,
+                "question": "What additional library is needed for QR codes?",
+                "options": ["numpy", "Pillow", "pandas", "matplotlib"],
+                "answer": "Pillow"
+            },
+            {
+                "id": 373,
+                "question": "What method creates a QR code?",
+                "options": ["create()", "make()", "generate()", "build()"],
+                "answer": "make()"
+            },
+            {
+                "id": 374,
+                "question": "What method saves a QR code image?",
+                "options": ["write()", "save()", "export()", "store()"],
+                "answer": "save()"
+            },
+            {
+                "id": 375,
+                "question": "What is Python's design philosophy emphasis?",
+                "options": ["Complexity", "Readability and simplicity", "Speed only", "Memory efficiency only"],
+                "answer": "Readability and simplicity"
+            },
+            {
+                "id": 376,
+                "question": "What is the file extension for Python files?",
+                "options": [".pyt", ".py", ".python", ".pt"],
+                "answer": ".py"
+            },
+            {
+                "id": 377,
+                "question": "Is Python case-sensitive?",
+                "options": ["No", "Yes", "Only for keywords", "Only for variables"],
+                "answer": "Yes"
+            },
+            {
+                "id": 378,
+                "question": "What function gets the type of a variable?",
+                "options": ["type()", "typeof()", "gettype()", "vartype()"],
+                "answer": "type()"
+            },
+            {
+                "id": 379,
+                "question": "What function gets the length of an object?",
+                "options": ["size()", "len()", "length()", "count()"],
+                "answer": "len()"
+            },
+            {
+                "id": 380,
+                "question": "What is the result of type(5)?",
+                "options": ["<class 'float'>", "<class 'int'>", "<class 'str'>", "<class 'bool'>"],
+                "answer": "<class 'int'>"
+            },
+            {
+                "id": 381,
+                "question": "What is the result of type('hello')?",
+                "options": ["<class 'int'>", "<class 'str'>", "<class 'float'>", "<class 'list'>"],
+                "answer": "<class 'str'>"
+            },
+            {
+                "id": 382,
+                "question": "What is the result of type([1,2,3])?",
+                "options": ["<class 'tuple'>", "<class 'list'>", "<class 'set'>", "<class 'dict'>"],
+                "answer": "<class 'list'>"
+            },
+            {
+                "id": 383,
+                "question": "What is the result of type((1,2,3))?",
+                "options": ["<class 'list'>", "<class 'tuple'>", "<class 'set'>", "<class 'dict'>"],
+                "answer": "<class 'tuple'>"
+            },
+            {
+                "id": 384,
+                "question": "What is the result of type({'a': 1})?",
+                "options": ["<class 'list'>", "<class 'dict'>", "<class 'set'>", "<class 'tuple'>"],
+                "answer": "<class 'dict'>"
+            },
+            {
+                "id": 385,
+                "question": "What is the result of type({1,2,3})?",
+                "options": ["<class 'list'>", "<class 'set'>", "<class 'dict'>", "<class 'tuple'>"],
+                "answer": "<class 'set'>"
+            },
+            {
+                "id": 386,
+                "question": "What is the result of type(True)?",
+                "options": ["<class 'int'>", "<class 'bool'>", "<class 'str'>", "<class 'float'>"],
+                "answer": "<class 'bool'>"
+            },
+            {
+                "id": 387,
+                "question": "What is the result of type(3.14)?",
+                "options": ["<class 'int'>", "<class 'float'>", "<class 'str'>", "<class 'bool'>"],
+                "answer": "<class 'float'>"
+            },
+            {
+                "id": 388,
+                "question": "What function converts to integer?",
+                "options": ["toInt()", "int()", "integer()", "parseInt()"],
+                "answer": "int()"
+            },
+            {
+                "id": 389,
+                "question": "What function converts to string?",
+                "options": ["toString()", "str()", "string()", "parseStr()"],
+                "answer": "str()"
+            },
+            {
+                "id": 390,
+                "question": "What function converts to float?",
+                "options": ["toFloat()", "float()", "double()", "parseFloat()"],
+                "answer": "float()"
+            },
+            {
+                "id": 391,
+                "question": "What is the result of int('10')?",
+                "options": ["'10'", "10", "10.0", "Error"],
+                "answer": "10"
+            },
+            {
+                "id": 392,
+                "question": "What is the result of str(10)?",
+                "options": ["10", "'10'", "10.0", "Error"],
+                "answer": "'10'"
+            },
+            {
+                "id": 393,
+                "question": "What is the result of float(10)?",
+                "options": ["10", "10.0", "'10.0'", "Error"],
+                "answer": "10.0"
+            },
+            {
+                "id": 394,
+                "question": "What is string concatenation?",
+                "options": ["Adding numbers", "Joining strings together", "Splitting strings", "Comparing strings"],
+                "answer": "Joining strings together"
+            },
+            {
+                "id": 395,
+                "question": "What is the result of 'Hello' + 'World'?",
+                "options": ["HelloWorld", "Hello World", "Error", "Hello+World"],
+                "answer": "HelloWorld"
+            },
+            {
+                "id": 396,
+                "question": "What is list comprehension?",
+                "options": ["A way to create lists concisely", "A way to delete lists", "A way to sort lists", "A way to copy lists"],
+                "answer": "A way to create lists concisely"
+            },
+            {
+                "id": 397,
+                "question": "What is the syntax for list comprehension?",
+                "options": ["[x for x in iterable]", "(x for x in iterable)", "{x for x in iterable}", "None of these"],
+                "answer": "[x for x in iterable]"
+            },
+            {
+                "id": 398,
+                "question": "What is a generator?",
+                "options": ["A function that returns a list", "A function that returns an iterator", "A type of loop", "A data type"],
+                "answer": "A function that returns an iterator"
+            },
+            {
+                "id": 399,
+                "question": "What keyword creates a generator?",
+                "options": ["return", "yield", "generate", "iterator"],
+                "answer": "yield"
+            },
+            {
+                "id": 400,
+                "question": "What is the difference between return and yield?",
+                "options": ["No difference", "yield pauses function, return ends it", "yield is faster", "return is newer"],
+                "answer": "yield pauses function, return ends it"
+            }
+        ]
