@@ -1,1 +1,161 @@
-hellow eodmmmdmlm
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Dev Quiz - Premium Edition</title>
+    <!-- We'll assume the same structure but hosted separately -->
+    <link rel="stylesheet" href="https://srujaldoshi05-ctrl.github.io/python/static/css/style.css">
+    <link rel="icon" href="https://srujaldoshi05-ctrl.github.io/python/static/images/favicon.png">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Name Input Section -->
+        <div id="loginArea">
+            <h1 style="margin-bottom: 30px;">Quiz Master</h1>
+            <div class="options" style="margin-bottom: 25px;">
+                <label
+                    style="flex-direction: column; align-items: flex-start; background: rgba(255,255,255,0.02); border: 1px solid var(--card-border);">
+                    <span style="margin-bottom: 8px; color: var(--text-secondary); font-size: 0.9rem;">Player
+                        Name</span>
+                    <input type="text" id="userNameInput" placeholder="Enter your name to start..." autocomplete="off"
+                        autocorrect="off" autocapitalize="off" spellcheck="false"
+                        style="width: 100%; background: transparent; border: none; color: white; padding: 5px 0; font-size: 1.1rem; outline: none;">
+                </label>
+            </div>
+
+            <div style="display: grid; gap: 15px;">
+                <button onclick="enterQuiz()"
+                    style="background: var(--primary-color); color: white; border: none; border-radius: 100px; padding: 16px; cursor: pointer; font-weight: 600; font-size: 1.1rem; box-shadow: 0 10px 20px rgba(124, 58, 237, 0.3);">
+                    Start Learning
+                </button>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <button onclick="showLeaderboard()"
+                        style="background: rgba(255,255,255,0.03); color: var(--text-primary); border: 1px solid var(--card-border); border-radius: 100px; padding: 12px; cursor: pointer; font-weight: 500;">
+                        🏆 Leaderboard
+                    </button>
+                    <button onclick="showHistory()"
+                        style="background: rgba(255,255,255,0.03); color: var(--text-primary); border: 1px solid var(--card-border); border-radius: 100px; padding: 12px; cursor: pointer; font-weight: 500;">
+                        📜 My History
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Quiz Content (Hidden initially) -->
+        <div id="mainContent" class="hidden">
+            <div class="user-info-bar">
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <div
+                        style="width: 10px; height: 10px; background: var(--success); border-radius: 50%; box-shadow: 0 0 10px var(--success);">
+                    </div>
+                    <span id="displayUserName" style="font-weight: 600;"></span>
+                </div>
+                <div style="display: flex; gap: 15px;">
+                    <button onclick="logout()"
+                        style="background: transparent; color: var(--text-secondary); border: none; cursor: pointer; font-size: 0.9rem; font-weight: 600;">Sign
+                        Out</button>
+                </div>
+            </div>
+
+
+            <div class="sets">
+                <button onclick="startSet(1)">Set 1</button>
+                <button onclick="startSet(2)">Set 2</button>
+                <button onclick="startSet(3)">Set 3</button>
+                <button onclick="startSet(4)">Set 4</button>
+            </div>
+
+            <h1>Python Development Quiz</h1>
+
+            <hr>
+
+            <div id="quizArea" class="hidden">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <h2 id="setTitle" style="margin: 0;"></h2>
+                    <div class="timer">Time: <span id="time">00:00</span></div>
+                </div>
+
+                <div class="progress-container">
+                    <div id="progressBar" class="progress-bar"></div>
+                </div>
+
+                <div class="question">
+                    <p id="questionText"></p>
+                    <div class="options" id="options"></div>
+                </div>
+
+                <div class="navigation">
+                    <button id="quizPrevBtn" onclick="prevQuestion()">Previous</button>
+                    <button id="saveProgressBtn" onclick="saveQuizProgress()"
+                        style="background: var(--primary-color); color: white;">💾 Save Progress</button>
+                    <button id="quizNextBtn" onclick="nextQuestion()">Next</button>
+                    <button onclick="finishQuiz()">Finish</button>
+                </div>
+            </div>
+
+            <div id="resultArea" class="hidden">
+                <h2 id="resultTitle">Result</h2>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <p id="scoreText"></p>
+                    <button onclick="saveCurrentScore()" id="saveBtn"
+                        style="background: var(--success); color: white; border: none; padding: 8px 15px; border-radius: 8px; cursor: pointer; font-weight: 600;">Save
+                        Score</button>
+                </div>
+                <div id="review"></div>
+                <div class="navigation" style="margin-top: 30px;">
+                    <button id="prevSetBtn" onclick="prevSet()">Previous Set</button>
+                    <button onclick="backToHome()"
+                        style="background: var(--card-bg); color: white; border: 1px solid var(--card-border);">🏠
+                        Home</button>
+                    <button id="nextSetBtn" onclick="nextSet()">Next Set</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- History Area -->
+        <div id="historyArea" class="hidden">
+            <h1>Your History</h1>
+            <div id="historyList"></div>
+            <button onclick="backFromHistory()"
+                style="width: 100%; margin-top: 20px; background: var(--card-bg); color: white; border: 1px solid var(--card-border); padding: 12px; border-radius: 12px; cursor: pointer;">
+                Back to Home
+            </button>
+        </div>
+
+        <!-- Leaderboard Area -->
+        <div id="leaderboardArea" class="hidden">
+            <h1 style="font-size: 2rem;">🏆 Global Top 10</h1>
+            <div id="leaderboardList"></div>
+            <button onclick="backFromLeaderboard()"
+                style="width: 100%; margin-top: 20px; background: var(--card-bg); color: white; border: 1px solid var(--card-border); padding: 12px; border-radius: 12px; cursor: pointer;">
+                Back to Home
+            </button>
+        </div>
+
+    </div>
+
+    <!-- Backend API Base URL - Update this after deployment -->
+    <script>
+        const API_BASE = "https://python-dev-quiz.onrender.com"; // Change to your Ngrok or Render URL
+
+        window.K_URLS = {
+            questions: "https://srujaldoshi05-ctrl.github.io/python/static/json/taxt.json",
+            authUser: `${API_BASE}/view/auth-user/`,
+            getScores: `${API_BASE}/view/get-scores/`,
+            getLeaderboard: `${API_BASE}/view/get-leaderboard/`,
+            saveScore: `${API_BASE}/view/save-score/`,
+            saveProgress: `${API_BASE}/view/save-progress/`,
+            getProgress: `${API_BASE}/view/get-progress/`
+        };
+    </script>
+    <script src="https://srujaldoshi05-ctrl.github.io/python/static/js/index.js"></script>
+
+</body>
+
+</html>

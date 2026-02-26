@@ -10,7 +10,11 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 
+import os
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,13 +24,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-s-f9gfghui5sq&1xxf)dl377!0!rm_1^ou#j!j+zl8b^y6(l&^'
+SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'django-insecure-s-f9gfghui5sq&1xxf)dl377!0!rm_1^ou#j!j+zl8b^y6(l&^')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.getenv('DJANGO_DEBUG', 'True') == 'True'
 
 ALLOWED_HOSTS = ['*','localhost','192.168.31.229','lynsey-jolliest-immaturely.ngrok-free.dev']
-CSRF_TRUSTED_ORIGINS = ['https://lynsey-jolliest-immaturely.ngrok-free.dev','https://python-dev-quiz.onrender.com','https://srujaldoshi05-ctrl.github.io/python/']
+CSRF_TRUSTED_ORIGINS = ['https://lynsey-jolliest-immaturely.ngrok-free.dev','https://python-dev-quiz.onrender.com','https://srujaldoshi05-ctrl.github.io']
+
+CORS_ALLOWED_ORIGINS = [
+    'https://srujaldoshi05-ctrl.github.io',
+]
 
 
 # Application definition
@@ -39,10 +47,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'view',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -126,9 +137,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
 STATICFILES_DIRS = []
 if (BASE_DIR / "static").exists():
     STATICFILES_DIRS.append(BASE_DIR / "static")
+
+# WhiteNoise storage to compress and cache static files
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/6.0/ref/settings/#default-auto-field

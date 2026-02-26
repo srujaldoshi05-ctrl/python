@@ -27,4 +27,4 @@ jobs:
         pip install -r requirements.txt
     - name: Run System Check
       run: |
-          python manage.py check --noreload
+          python manage.py check
